@@ -1,4 +1,4 @@
-import { createContext,useContext,useState } from 'react'
+import { createContext,useState } from 'react'
 import React from 'react'
 import Footer from "./Footer"
 import Header from "./Header"

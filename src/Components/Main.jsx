@@ -4,8 +4,8 @@ import {Them} from "./ThemeContext"
 const Main = () => {
     const val = useContext(Them)
   return (
-    <div className={val.themo} >
-        <p></p>
+    <div className={`${val.themo}`} >
+        <div>C</div>
         <img src="" alt=""/>
     </div>
   )
