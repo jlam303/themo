@@ -4,7 +4,9 @@ import {Them} from "./ThemeContext"
 const Header = () => {
   const val = useContext(Them)
   return (
-    <div className={`${val.themo}`}>Header</div>
+    <div className={`${val.themo}`}>
+      <h1>Welcome to a website</h1>
+    </div>
   )
 }
 
