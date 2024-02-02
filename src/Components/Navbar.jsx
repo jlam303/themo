@@ -5,7 +5,9 @@ const Navbar = () => {
     const val = useContext(Them)
   return (
     
-    <div className={val.themo}><button onClick={()=>{val.handleThemo()}}>Change Theme</button></div>
+    <div className={val.themo}>
+        <button onClick={()=>{val.handleThemo()}}>Change Theme</button>
+    </div>
   )
 }
 
