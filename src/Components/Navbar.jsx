@@ -5,9 +5,9 @@ const Navbar = () => {
     const val = useContext(Them)
   return (
     
-    <div className={val.themo}>
-        <a href=""></a>
-        <button onClick={()=>{val.handleThemo()}}>Change Theme</button>
+    <div className={`${val.themo} nav`}>
+        <div>Themo</div>
+        <button onClick={()=>{val.handleThemo()}} style={val.themo==="light"?{color:"white",backgroundColor:"black"}:{color:"black",backgroundColor:"white"}}>Change Theme</button>
     </div>
   )
 }
