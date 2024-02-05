@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     
     <div className={`${val.themo} nav`}>
-        <div>Themo</div>
+        <div>Rock Climbing</div>
         <button onClick={()=>{val.handleThemo()}} style={val.themo==="light"?{color:"white",backgroundColor:"black"}:{color:"black",backgroundColor:"white"}}>Change Theme</button>
     </div>
   )

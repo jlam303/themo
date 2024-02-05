@@ -5,7 +5,7 @@ const Header = () => {
   const val = useContext(Them)
   return (
     <div className={`${val.themo} header`}>
-      <h1>Welcome to a website</h1>
+      <h1>Rock Climbing Types</h1>
     </div>
   )
 }

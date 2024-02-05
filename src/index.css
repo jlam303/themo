@@ -47,6 +47,7 @@ code {
   padding-right: 2rem;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 .nav div{
@@ -54,6 +55,32 @@ code {
   font-weight: 900;
 }
 .nav button {
-  font-size: 2rem;
+  border: 0;
+  font-size: 1rem;
   font-weight: 900;
+  padding: .7rem;
+}
+.content{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.content h1{
+  margin-top: 0;
+}
+.content>div{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  height: 50vh;
+  margin-bottom: 4rem;
+}
+.content>div>div{
+  height: 50vh;
+}
+.content img{
+  height: 50vh;
+  width: 50%;
+  object-fit: cover;
 }
